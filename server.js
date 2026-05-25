@@ -963,4 +963,8 @@ process.on('SIGTERM', () => {
   });
 });
 
-startServer();
+if (require.main === module) {
+  startServer();
+}
+
+module.exports = app;
