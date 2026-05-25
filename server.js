@@ -14,6 +14,9 @@ const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
+// Trust Vercel Proxy to ensure rate limiting uses the real client IP instead of the proxy IP
+app.set('trust proxy', 1);
+
 const REVIEW_PROFILES = [
   {
     id: 'balanced-default',
@@ -127,11 +130,14 @@ const allowedOrigins = (process.env.CORS_ORIGIN || '')
 
 const corsOptions = {
   origin: (origin, callback) => {
-    if (!origin) return callback(null, true);
-    if (!IS_PRODUCTION || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) {
+    // Allow non-browser requests (like curl/Postman) or development mode
+    if (!origin || !IS_PRODUCTION) return callback(null, true);
+    
+    // In production, strictly enforce CORS to prevent other sites from burning your LLM tokens
+    if (allowedOrigins.length > 0 && (allowedOrigins.includes(origin) || allowedOrigins.includes('*'))) {
       return callback(null, true);
     }
-    return callback(new Error('CORS not allowed'));
+    return callback(new Error('CORS not allowed - Unauthorized Origin'));
   },
   methods: ['GET', 'POST'],
   credentials: false,
