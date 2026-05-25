@@ -1,0 +1,732 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\skk88\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.15.0
+2 info using node@v24.13.1
+3 silly config load:file:C:\Users\skk88\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\projects\genai\Automated Code Reviewer\backend\.npmrc
+5 silly config load:file:C:\Users\skk88\.npmrc
+6 silly config load:file:C:\Users\skk88\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install prisma@5 @prisma/client@5
+8 verbose argv "install" "prisma@5" "@prisma/client@5"
+9 verbose logfile logs-max:10 dir:C:\projects\genai\Automated Code Reviewer\backend\clean\_logs\2026-05-25T14_41_35_442Z-
+10 verbose logfile C:\projects\genai\Automated Code Reviewer\backend\clean\_logs\2026-05-25T14_41_35_442Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 silly idealTree buildDeps
+15 silly fetch manifest @prisma/client@5
+16 silly packumentCache full:https://registry.npmjs.org/@prisma%2fclient cache-miss
+17 silly logfile done cleaning log files
+18 http cache https://registry.npmjs.org/@prisma%2fclient 347ms (cache hit)
+19 silly packumentCache full:https://registry.npmjs.org/@prisma%2fclient set size:67799902 disposed:false
+20 silly fetch manifest prisma@5
+21 silly packumentCache full:https://registry.npmjs.org/prisma cache-miss
+22 http cache https://registry.npmjs.org/prisma 166ms (cache hit)
+23 silly packumentCache full:https://registry.npmjs.org/prisma set size:43225254 disposed:false
+24 silly placeDep ROOT @prisma/client@5.22.0 REPLACE for: ai-code-reviewer-backend@1.0.0 want: 5
+25 silly placeDep ROOT prisma@5.22.0 REPLACE for: ai-code-reviewer-backend@1.0.0 want: 5
+26 silly fetch manifest @prisma/engines@5.22.0
+27 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines cache-miss
+28 http cache https://registry.npmjs.org/@prisma%2fengines 66ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines set size:21756135 disposed:false
+30 silly placeDep ROOT @prisma/engines@5.22.0 OK for: prisma@5.22.0 want: 5.22.0
+31 silly fetch manifest @prisma/debug@5.22.0
+32 silly packumentCache full:https://registry.npmjs.org/@prisma%2fdebug cache-miss
+33 silly fetch manifest @prisma/fetch-engine@5.22.0
+34 silly packumentCache full:https://registry.npmjs.org/@prisma%2ffetch-engine cache-miss
+35 silly fetch manifest @prisma/get-platform@5.22.0
+36 silly packumentCache full:https://registry.npmjs.org/@prisma%2fget-platform cache-miss
+37 silly fetch manifest @prisma/engines-version@5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
+38 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines-version cache-miss
+39 http cache https://registry.npmjs.org/@prisma%2fengines-version 64ms (cache hit)
+40 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines-version set size:9921553 disposed:false
+41 http cache https://registry.npmjs.org/@prisma%2fget-platform 171ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/@prisma%2fget-platform set size:28389571 disposed:false
+43 http cache https://registry.npmjs.org/@prisma%2fdebug 419ms (cache hit)
+44 silly packumentCache full:https://registry.npmjs.org/@prisma%2fdebug set size:28705315 disposed:false
+45 http cache https://registry.npmjs.org/@prisma%2ffetch-engine 631ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@prisma%2ffetch-engine set size:32282294 disposed:false
+47 silly placeDep ROOT @prisma/debug@5.22.0 OK for: @prisma/engines@5.22.0 want: 5.22.0
+48 silly placeDep ROOT @prisma/engines-version@5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2 OK for: @prisma/engines@5.22.0 want: 5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
+49 silly placeDep ROOT @prisma/fetch-engine@5.22.0 OK for: @prisma/engines@5.22.0 want: 5.22.0
+50 silly placeDep ROOT @prisma/get-platform@5.22.0 OK for: @prisma/engines@5.22.0 want: 5.22.0
+51 silly reify mark retired [
+51 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\ajv'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\aws-ssl-profiles'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\better-result'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\c12'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\chart.js'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\confbox'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\defu'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\cross-spawn'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\csstype'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\deepmerge-ts'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\denque'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\destr'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\empathic'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\effect'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\env-paths'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\fast-check'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\exsolve'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\fast-deep-equal'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\fast-uri'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\foreground-child'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\get-port-please'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\generate-function'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\giget',
+73 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\giget',
+73 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\giget.cmd',
+73 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\giget.ps1'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\graceful-fs'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\grammex'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\graphmatch'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\http-status-codes'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\hono'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\is-property'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\jiti',
+80 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\jiti',
+80 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\jiti.cmd',
+80 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\jiti.ps1'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\isexe'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\json-schema-traverse'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\long'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\lru.min'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\named-placeholders'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\mysql2'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\ohash'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\path-key'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\perfect-debounce'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\pathe'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\postgres'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\pkg-types'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\proper-lockfile'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\prisma',
+94 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\prisma',
+94 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\prisma.cmd',
+94 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\prisma.ps1'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\pure-rand'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\react-dom'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\react'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\rc9'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\remeda'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\retry'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\require-from-string'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\seq-queue'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\scheduler'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\shebang-regex'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\shebang-command'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\signal-exit'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\sqlstring'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\std-env'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\valibot'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\which',
+110 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\node-which',
+110 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\node-which.cmd',
+110 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\node-which.ps1'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\pglite-socket',
+111 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\pglite-server',
+111 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\pglite-server.cmd',
+111 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\pglite-server.ps1'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\pglite'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\zeptomatch'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\pglite-tools'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@kurkle\\color'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\client-runtime-utils'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\client'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\dev'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\debug'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\engines'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\engines-version'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\config'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\get-platform'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\fetch-engine'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\studio-core'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\primitive'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@hono\\node-server'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\streams-local'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-compose-refs'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\query-plan-executor'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-toggle'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-use-effect-event'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-slot'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-use-controllable-state'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-use-layout-effect'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@types\\react'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-primitive'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@standard-schema\\spec'
+138 silly reify ]
+139 silly reify moves {
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\ajv': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.ajv-m9Ji8gkP',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\aws-ssl-profiles': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.aws-ssl-profiles-kVG6mzjQ',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\better-result': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.better-result-frTdTRyl',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\c12': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.c12-qfWbjlQY',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\chart.js': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.chart.js-0FncJBpC',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\confbox': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.confbox-fB5vPZUs',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\defu': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.defu-oNDtDdTt',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\cross-spawn': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.cross-spawn-B5xSAuYa',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\csstype': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.csstype-aidqyebH',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\deepmerge-ts': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.deepmerge-ts-0sxgQRAn',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\denque': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.denque-9zI7Iq5N',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\destr': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.destr-XeoZbWaL',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\empathic': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.empathic-hpu3Om8T',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\effect': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.effect-gT5HA7Re',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\env-paths': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.env-paths-Vn2CbiXr',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\fast-check': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.fast-check-7PRNTILW',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\exsolve': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.exsolve-l4GbAlO2',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\fast-deep-equal': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.fast-deep-equal-mc8o5lNw',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\fast-uri': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.fast-uri-9vlgGLIY',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\foreground-child': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.foreground-child-DvqB67rx',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\get-port-please': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.get-port-please-s5AiDPA2',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\generate-function': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.generate-function-TrEE1ZDE',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\giget': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.giget-cLzKyJ4J',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\giget': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.giget-v9HUqZoq',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\giget.cmd': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.giget.cmd-7YmEYYHz',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\giget.ps1': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.giget.ps1-jhn4IeaI',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\graceful-fs': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.graceful-fs-SeJLTfhO',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\grammex': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.grammex-Ld9J9i9X',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\graphmatch': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.graphmatch-nKjGOiL4',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\http-status-codes': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.http-status-codes-FkTcZr3q',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\hono': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.hono-nKhyGjOz',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\is-property': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.is-property-xikltQrL',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\jiti': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.jiti-1bsECveF',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\jiti': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.jiti-T2RqtbpG',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\jiti.cmd': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.jiti.cmd-ucyIZiJO',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\jiti.ps1': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.jiti.ps1-KKmjoSva',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\isexe': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.isexe-6MmQYKu2',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\json-schema-traverse': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.json-schema-traverse-dlgiMCfW',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\long': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.long-3Hpz18mq',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\lru.min': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.lru.min-gz4QpTgV',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\named-placeholders': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.named-placeholders-3xyOTd7q',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\mysql2': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.mysql2-HIswiuT2',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\ohash': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.ohash-CLoonlcE',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\path-key': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.path-key-Ng38czLV',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\perfect-debounce': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.perfect-debounce-sZBFlOu6',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\pathe': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.pathe-xXw3Lis9',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\postgres': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.postgres-YfuEJGj3',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\pkg-types': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.pkg-types-qIxmDi84',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\proper-lockfile': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.proper-lockfile-W68kBG86',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\prisma': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.prisma-ENUPV2xq',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\prisma': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.prisma-Sj1OUQsD',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\prisma.cmd': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.prisma.cmd-ZzVeelmG',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\prisma.ps1': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.prisma.ps1-KuhfkEJ6',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\pure-rand': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.pure-rand-Qs9EfyK6',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\react-dom': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.react-dom-rQNkIQXu',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\react': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.react-q2tEm7K7',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\rc9': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.rc9-oGHzZPoF',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\remeda': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.remeda-55PGInpD',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\retry': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.retry-umFBuOCT',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\require-from-string': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.require-from-string-e9EhAPOH',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\seq-queue': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.seq-queue-NubMq8Oo',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\scheduler': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.scheduler-KueFtCsF',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\shebang-regex': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.shebang-regex-ys2FEpUr',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\shebang-command': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.shebang-command-blgz5cNp',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\signal-exit': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.signal-exit-JCp6LTaj',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\sqlstring': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.sqlstring-P4Ps6ppX',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\std-env': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.std-env-eWawoegX',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\valibot': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.valibot-Ij59Nt0F',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\which': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.which-fxkduZZr',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\node-which': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.node-which-DfGs0Beu',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\node-which.cmd': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.node-which.cmd-Xiaiioc8',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\node-which.ps1': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.node-which.ps1-il4bgaoR',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\pglite-socket': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\.pglite-socket-2NUeyoOy',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\pglite-server': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.pglite-server-EQEHKbnx',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\pglite-server.cmd': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.pglite-server.cmd-H85u7mnp',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\pglite-server.ps1': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.bin\\.pglite-server.ps1-4q8Df8zb',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\pglite': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\.pglite-kq91h7m1',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\zeptomatch': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\.zeptomatch-aBsgxkwz',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\pglite-tools': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@electric-sql\\.pglite-tools-NRb8Qurw',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@kurkle\\color': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@kurkle\\.color-0vZQspTw',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\client-runtime-utils': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.client-runtime-utils-jnRxG0Hk',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\client': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.client-aggWcr7X',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\dev': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.dev-2FvJ4sQm',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\debug': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.debug-K51vx5eM',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\engines': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.engines-lSJJ8g7p',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\engines-version': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.engines-version-ZV9HFjp6',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\config': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.config-0ONkjwMw',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\get-platform': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.get-platform-mkhruAk5',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\fetch-engine': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.fetch-engine-A2ScYEcC',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\studio-core': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.studio-core-BEnhPRuM',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\primitive': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\.primitive-tJDLvOHs',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@hono\\node-server': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@hono\\.node-server-ZhjkKQ42',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\streams-local': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.streams-local-2oBpCVfx',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-compose-refs': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\.react-compose-refs-aGMW90ea',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\query-plan-executor': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@prisma\\.query-plan-executor-CNjVmnjQ',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-toggle': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\.react-toggle-WruONXVV',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-use-effect-event': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\.react-use-effect-event-JPuPr1Z4',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-slot': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\.react-slot-YPvqoXeD',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-use-controllable-state': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\.react-use-controllable-state-kDOspZGs',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-use-layout-effect': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\.react-use-layout-effect-Lhy2MIa8',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@types\\react': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@types\\.react-aGjLCzQe',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\react-primitive': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@radix-ui\\.react-primitive-flHIBHBs',
+139 silly reify   'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@standard-schema\\spec': 'C:\\projects\\genai\\Automated Code Reviewer\\backend\\node_modules\\@standard-schema\\.spec-ohwcAqPs'
+139 silly reify }
+140 silly audit bulk request {
+140 silly audit   '@google/generative-ai': [ '0.2.1' ],
+140 silly audit   '@mongodb-js/saslprep': [ '1.4.11' ],
+140 silly audit   '@types/node': [ '25.9.1' ],
+140 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+140 silly audit   '@types/whatwg-url': [ '8.2.2' ],
+140 silly audit   accepts: [ '1.3.8' ],
+140 silly audit   'agent-base': [ '6.0.2' ],
+140 silly audit   debug: [ '4.4.3', '2.6.9' ],
+140 silly audit   ms: [ '2.1.3', '2.0.0' ],
+140 silly audit   anymatch: [ '3.1.3' ],
+140 silly audit   'append-field': [ '1.0.0' ],
+140 silly audit   'array-flatten': [ '1.1.1' ],
+140 silly audit   asynckit: [ '0.4.0' ],
+140 silly audit   axios: [ '1.16.1' ],
+140 silly audit   'balanced-match': [ '4.0.4' ],
+140 silly audit   'binary-extensions': [ '2.3.0' ],
+140 silly audit   'body-parser': [ '1.20.5' ],
+140 silly audit   'brace-expansion': [ '5.0.6' ],
+140 silly audit   braces: [ '3.0.3' ],
+140 silly audit   bson: [ '5.5.1' ],
+140 silly audit   'buffer-from': [ '1.1.2' ],
+140 silly audit   busboy: [ '1.6.0' ],
+140 silly audit   bytes: [ '3.1.2' ],
+140 silly audit   chokidar: [ '3.6.0' ],
+140 silly audit   dotenv: [ '16.6.1' ],
+140 silly audit   readdirp: [ '3.6.0' ],
+140 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+140 silly audit   'call-bound': [ '1.0.4' ],
+140 silly audit   'combined-stream': [ '1.0.8' ],
+140 silly audit   compressible: [ '2.0.18' ],
+140 silly audit   compression: [ '1.8.1' ],
+140 silly audit   negotiator: [ '0.6.4', '0.6.3' ],
+140 silly audit   'concat-stream': [ '1.6.2' ],
+140 silly audit   'content-disposition': [ '0.5.4' ],
+140 silly audit   'content-type': [ '1.0.5' ],
+140 silly audit   cookie: [ '0.7.2' ],
+140 silly audit   'cookie-signature': [ '1.0.7' ],
+140 silly audit   'core-util-is': [ '1.0.3' ],
+140 silly audit   cors: [ '2.8.6' ],
+140 silly audit   'delayed-stream': [ '1.0.0' ],
+140 silly audit   depd: [ '2.0.0' ],
+140 silly audit   destroy: [ '1.2.0' ],
+140 silly audit   'dunder-proto': [ '1.0.1' ],
+140 silly audit   'ee-first': [ '1.1.1' ],
+140 silly audit   encodeurl: [ '2.0.0' ],
+140 silly audit   'es-define-property': [ '1.0.1' ],
+140 silly audit   'es-errors': [ '1.3.0' ],
+140 silly audit   'es-object-atoms': [ '1.1.1' ],
+140 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+140 silly audit   'escape-html': [ '1.0.3' ],
+140 silly audit   etag: [ '1.8.1' ],
+140 silly audit   eventemitter3: [ '4.0.7' ],
+140 silly audit   express: [ '4.22.2' ],
+140 silly audit   'express-rate-limit': [ '7.5.1' ],
+140 silly audit   'fill-range': [ '7.1.1' ],
+140 silly audit   finalhandler: [ '1.3.2' ],
+140 silly audit   'follow-redirects': [ '1.16.0' ],
+140 silly audit   'form-data': [ '4.0.5' ],
+140 silly audit   forwarded: [ '0.2.0' ],
+140 silly audit   fresh: [ '0.5.2' ],
+140 silly audit   fsevents: [ '2.3.3' ],
+140 silly audit   'function-bind': [ '1.1.2' ],
+140 silly audit   'get-intrinsic': [ '1.3.0' ],
+140 silly audit   'get-proto': [ '1.0.1' ],
+140 silly audit   'glob-parent': [ '5.1.2' ],
+140 silly audit   gopd: [ '1.2.0' ],
+140 silly audit   'has-flag': [ '3.0.0' ],
+140 silly audit   'has-symbols': [ '1.1.0' ],
+140 silly audit   'has-tostringtag': [ '1.0.2' ],
+140 silly audit   hasown: [ '2.0.3' ],
+140 silly audit   helmet: [ '8.1.0' ],
+140 silly audit   'http-errors': [ '2.0.1' ],
+140 silly audit   'https-proxy-agent': [ '5.0.1' ],
+140 silly audit   'iconv-lite': [ '0.4.24' ],
+140 silly audit   'ignore-by-default': [ '1.0.1' ],
+140 silly audit   inherits: [ '2.0.4' ],
+140 silly audit   'ip-address': [ '10.2.0' ],
+140 silly audit   'ipaddr.js': [ '1.9.1' ],
+140 silly audit   'is-binary-path': [ '2.1.0' ],
+140 silly audit   'is-extglob': [ '2.1.1' ],
+140 silly audit   'is-glob': [ '4.0.3' ],
+140 silly audit   'is-number': [ '7.0.0' ],
+140 silly audit   isarray: [ '1.0.0' ],
+140 silly audit   kareem: [ '2.5.1' ],
+140 silly audit   langsmith: [ '0.7.2' ],
+140 silly audit   'math-intrinsics': [ '1.1.0' ],
+140 silly audit   'media-typer': [ '0.3.0' ],
+140 silly audit   'memory-pager': [ '1.5.0' ],
+140 silly audit   'merge-descriptors': [ '1.0.3' ],
+140 silly audit   methods: [ '1.1.2' ],
+140 silly audit   mime: [ '1.6.0' ],
+140 silly audit   'mime-db': [ '1.52.0' ],
+140 silly audit   'mime-types': [ '2.1.35' ],
+140 silly audit   minimatch: [ '10.2.5' ],
+140 silly audit   minimist: [ '1.2.8' ],
+140 silly audit   mkdirp: [ '0.5.6' ],
+140 silly audit   mongodb: [ '5.9.2' ],
+140 silly audit   'mongodb-connection-string-url': [ '2.6.0' ],
+140 silly audit   mongoose: [ '7.8.9' ],
+140 silly audit   mpath: [ '0.9.0' ],
+140 silly audit   mquery: [ '5.0.0' ],
+140 silly audit   multer: [ '1.4.5-lts.2' ],
+140 silly audit   nodemon: [ '3.1.14' ],
+140 silly audit   'normalize-path': [ '3.0.0' ],
+140 silly audit   'object-assign': [ '4.1.1' ],
+140 silly audit   'object-inspect': [ '1.13.4' ],
+140 silly audit   'on-finished': [ '2.4.1' ],
+140 silly audit   'on-headers': [ '1.1.0' ],
+140 silly audit   'p-finally': [ '1.0.0' ],
+140 silly audit   'p-queue': [ '6.6.2' ],
+140 silly audit   'p-timeout': [ '3.2.0' ],
+140 silly audit   parseurl: [ '1.3.3' ],
+140 silly audit   'path-to-regexp': [ '0.1.13' ],
+140 silly audit   picomatch: [ '2.3.2' ],
+140 silly audit   'process-nextick-args': [ '2.0.1' ],
+140 silly audit   'proxy-addr': [ '2.0.7' ],
+140 silly audit   'proxy-from-env': [ '2.1.0' ],
+140 silly audit   'pstree.remy': [ '1.1.8' ],
+140 silly audit   punycode: [ '2.3.1' ],
+140 silly audit   qs: [ '6.15.2' ],
+140 silly audit   'range-parser': [ '1.2.1' ],
+140 silly audit   'raw-body': [ '2.5.3' ],
+140 silly audit   'readable-stream': [ '2.3.8' ],
+140 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+140 silly audit   'safer-buffer': [ '2.1.2' ],
+140 silly audit   semver: [ '7.8.0' ],
+140 silly audit   send: [ '0.19.2' ],
+140 silly audit   'serve-static': [ '1.16.3' ],
+140 silly audit   setprototypeof: [ '1.2.0' ],
+140 silly audit   'side-channel': [ '1.1.0' ],
+140 silly audit   'side-channel-list': [ '1.0.1' ],
+140 silly audit   'side-channel-map': [ '1.0.1' ],
+140 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+140 silly audit   sift: [ '16.0.1' ],
+140 silly audit   'simple-update-notifier': [ '2.0.0' ],
+140 silly audit   'smart-buffer': [ '4.2.0' ],
+140 silly audit   socks: [ '2.8.9' ],
+140 silly audit   'sparse-bitfield': [ '3.0.3' ],
+140 silly audit   statuses: [ '2.0.2' ],
+140 silly audit   streamsearch: [ '1.1.0' ],
+140 silly audit   string_decoder: [ '1.1.1' ],
+140 silly audit   'supports-color': [ '5.5.0' ],
+140 silly audit   'to-regex-range': [ '5.0.1' ],
+140 silly audit   toidentifier: [ '1.0.1' ],
+140 silly audit   touch: [ '3.1.1' ],
+140 silly audit   tr46: [ '3.0.0' ],
+140 silly audit   'type-is': [ '1.6.18' ],
+140 silly audit   typedarray: [ '0.0.6' ],
+140 silly audit   undefsafe: [ '2.0.5' ],
+140 silly audit   'undici-types': [ '7.24.6' ],
+140 silly audit   unpipe: [ '1.0.0' ],
+140 silly audit   'util-deprecate': [ '1.0.2' ],
+140 silly audit   'utils-merge': [ '1.0.1' ],
+140 silly audit   vary: [ '1.1.2' ],
+140 silly audit   'webidl-conversions': [ '7.0.0' ],
+140 silly audit   'whatwg-url': [ '11.0.0' ],
+140 silly audit   xtend: [ '4.0.2' ],
+140 silly audit   '@prisma/client': [ '5.22.0' ],
+140 silly audit   prisma: [ '5.22.0' ],
+140 silly audit   '@prisma/engines': [ '5.22.0' ],
+140 silly audit   '@prisma/debug': [ '5.22.0' ],
+140 silly audit   '@prisma/engines-version': [ '5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2' ],
+140 silly audit   '@prisma/fetch-engine': [ '5.22.0' ],
+140 silly audit   '@prisma/get-platform': [ '5.22.0' ]
+140 silly audit }
+141 http cache @prisma/fetch-engine@https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz 0ms (cache hit)
+142 http cache @prisma/get-platform@https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz 0ms (cache hit)
+143 http cache @prisma/engines@https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz 0ms (cache hit)
+144 silly tarball no local data for @prisma/fetch-engine@https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz. Extracting by manifest.
+145 http cache @prisma/engines-version@https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz 0ms (cache hit)
+146 silly tarball no local data for @prisma/get-platform@https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz. Extracting by manifest.
+147 silly tarball no local data for @prisma/engines@https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz. Extracting by manifest.
+148 http cache @prisma/client@https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz 0ms (cache hit)
+149 http cache @prisma/debug@https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz 0ms (cache hit)
+150 http cache prisma@https://registry.npmjs.org/prisma/-/prisma-5.22.0.tgz 0ms (cache hit)
+151 silly tarball no local data for @prisma/engines-version@https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz. Extracting by manifest.
+152 silly tarball no local data for @prisma/client@https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz. Extracting by manifest.
+153 silly tarball no local data for @prisma/debug@https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz. Extracting by manifest.
+154 silly tarball no local data for prisma@https://registry.npmjs.org/prisma/-/prisma-5.22.0.tgz. Extracting by manifest.
+155 http fetch GET 200 https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz 385ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz 421ms (cache miss)
+157 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 702ms
+158 silly audit report {}
+159 http fetch GET 200 https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz 865ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz 923ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz 953ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz 1604ms (cache miss)
+163 http fetch GET 200 https://registry.npmjs.org/prisma/-/prisma-5.22.0.tgz 2749ms (cache miss)
+164 info run prisma@5.22.0 preinstall node_modules/prisma node scripts/preinstall-entry.js
+165 info run prisma@5.22.0 preinstall { code: 0, signal: null }
+166 info run @prisma/client@5.22.0 postinstall node_modules/@prisma/client node scripts/postinstall.js
+167 info run @prisma/engines@5.22.0 postinstall node_modules/@prisma/engines node scripts/postinstall.js
+168 info run @prisma/engines@5.22.0 postinstall { code: 0, signal: null }
+169 info run @prisma/client@5.22.0 postinstall { code: 0, signal: null }
+170 silly REMOVE node_modules/@standard-schema/spec
+171 silly REMOVE node_modules/@radix-ui/react-primitive
+172 silly REMOVE node_modules/@types/react
+173 silly REMOVE node_modules/@radix-ui/react-use-layout-effect
+174 silly REMOVE node_modules/@radix-ui/react-use-controllable-state
+175 silly REMOVE node_modules/@radix-ui/react-slot
+176 silly REMOVE node_modules/@radix-ui/react-use-effect-event
+177 silly REMOVE node_modules/@radix-ui/react-toggle
+178 silly REMOVE node_modules/@prisma/query-plan-executor
+179 silly REMOVE node_modules/@radix-ui/react-compose-refs
+180 silly REMOVE node_modules/@prisma/streams-local
+181 silly REMOVE node_modules/@hono/node-server
+182 silly REMOVE node_modules/@radix-ui/primitive
+183 silly REMOVE node_modules/@prisma/studio-core
+184 silly CHANGE node_modules/@prisma/fetch-engine
+185 silly REMOVE node_modules/@prisma/fetch-engine/node_modules/@prisma/get-platform
+186 silly CHANGE node_modules/@prisma/get-platform
+187 silly REMOVE node_modules/@prisma/get-platform/node_modules/@prisma/debug
+188 silly REMOVE node_modules/@prisma/config
+189 silly CHANGE node_modules/@prisma/engines-version
+190 silly CHANGE node_modules/@prisma/engines
+191 silly REMOVE node_modules/@prisma/engines/node_modules/@prisma/get-platform
+192 silly CHANGE node_modules/@prisma/debug
+193 silly REMOVE node_modules/@prisma/dev
+194 silly CHANGE node_modules/@prisma/client
+195 silly REMOVE node_modules/@prisma/client-runtime-utils
+196 silly REMOVE node_modules/@kurkle/color
+197 silly REMOVE node_modules/@electric-sql/pglite-tools
+198 silly REMOVE node_modules/zeptomatch
+199 silly REMOVE node_modules/@electric-sql/pglite
+200 silly REMOVE node_modules/@electric-sql/pglite-socket
+201 silly REMOVE node_modules/which
+202 silly REMOVE node_modules/valibot
+203 silly REMOVE node_modules/std-env
+204 silly REMOVE node_modules/sqlstring
+205 silly REMOVE node_modules/signal-exit
+206 silly REMOVE node_modules/shebang-command
+207 silly REMOVE node_modules/shebang-regex
+208 silly REMOVE node_modules/scheduler
+209 silly REMOVE node_modules/seq-queue
+210 silly REMOVE node_modules/require-from-string
+211 silly REMOVE node_modules/retry
+212 silly REMOVE node_modules/remeda
+213 silly REMOVE node_modules/rc9
+214 silly REMOVE node_modules/react
+215 silly REMOVE node_modules/react-dom
+216 silly REMOVE node_modules/pure-rand
+217 silly CHANGE node_modules/prisma
+218 silly REMOVE node_modules/proper-lockfile
+219 silly REMOVE node_modules/proper-lockfile/node_modules/signal-exit
+220 silly REMOVE node_modules/pkg-types
+221 silly REMOVE node_modules/postgres
+222 silly REMOVE node_modules/pathe
+223 silly REMOVE node_modules/perfect-debounce
+224 silly REMOVE node_modules/path-key
+225 silly REMOVE node_modules/ohash
+226 silly REMOVE node_modules/mysql2
+227 silly REMOVE node_modules/mysql2/node_modules/iconv-lite
+228 silly REMOVE node_modules/named-placeholders
+229 silly REMOVE node_modules/lru.min
+230 silly REMOVE node_modules/long
+231 silly REMOVE node_modules/json-schema-traverse
+232 silly REMOVE node_modules/isexe
+233 silly REMOVE node_modules/jiti
+234 silly REMOVE node_modules/is-property
+235 silly REMOVE node_modules/hono
+236 silly REMOVE node_modules/http-status-codes
+237 silly REMOVE node_modules/graphmatch
+238 silly REMOVE node_modules/grammex
+239 silly REMOVE node_modules/graceful-fs
+240 silly REMOVE node_modules/giget
+241 silly REMOVE node_modules/generate-function
+242 silly REMOVE node_modules/get-port-please
+243 silly REMOVE node_modules/foreground-child
+244 silly REMOVE node_modules/fast-uri
+245 silly REMOVE node_modules/fast-deep-equal
+246 silly REMOVE node_modules/exsolve
+247 silly REMOVE node_modules/fast-check
+248 silly REMOVE node_modules/env-paths
+249 silly REMOVE node_modules/effect
+250 silly REMOVE node_modules/empathic
+251 silly REMOVE node_modules/destr
+252 silly REMOVE node_modules/denque
+253 silly REMOVE node_modules/deepmerge-ts
+254 silly REMOVE node_modules/csstype
+255 silly REMOVE node_modules/cross-spawn
+256 silly REMOVE node_modules/defu
+257 silly REMOVE node_modules/confbox
+258 silly REMOVE node_modules/chart.js
+259 silly REMOVE node_modules/c12
+260 silly REMOVE node_modules/c12/node_modules/dotenv
+261 silly REMOVE node_modules/c12/node_modules/chokidar
+262 silly REMOVE node_modules/c12/node_modules/readdirp
+263 silly REMOVE node_modules/better-result
+264 silly REMOVE node_modules/aws-ssl-profiles
+265 silly REMOVE node_modules/ajv
+266 verbose cwd C:\projects\genai\Automated Code Reviewer\backend
+267 verbose os Windows_NT 10.0.26200
+268 verbose node v24.13.1
+269 verbose npm  v11.15.0
+270 verbose exit 0
+271 info ok

@@ -1,0 +1,260 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\skk88\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.15.0
+2 info using node@v24.13.1
+3 silly config load:file:C:\Users\skk88\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\projects\genai\Automated Code Reviewer\backend\.npmrc
+5 silly config load:file:C:\Users\skk88\.npmrc
+6 silly config load:file:C:\Users\skk88\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install langsmith
+8 verbose argv "install" "langsmith"
+9 verbose logfile logs-max:10 dir:C:\projects\genai\Automated Code Reviewer\backend\clean\_logs\2026-05-25T13_22_53_668Z-
+10 verbose logfile C:\projects\genai\Automated Code Reviewer\backend\clean\_logs\2026-05-25T13_22_53_668Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest langsmith@*
+16 silly packumentCache full:https://registry.npmjs.org/langsmith cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/langsmith 608ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/langsmith set size:undefined disposed:false
+19 silly fetch manifest @opentelemetry/api@*
+20 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 173ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+23 silly fetch manifest @opentelemetry/exporter-trace-otlp-proto@*
+24 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fexporter-trace-otlp-proto cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fexporter-trace-otlp-proto 125ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fexporter-trace-otlp-proto set size:undefined disposed:false
+27 silly fetch manifest @opentelemetry/sdk-trace-base@*
+28 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fsdk-trace-base cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fsdk-trace-base 168ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fsdk-trace-base set size:undefined disposed:false
+31 silly fetch manifest openai@*
+32 silly packumentCache full:https://registry.npmjs.org/openai cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/openai 237ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/openai set size:undefined disposed:false
+35 silly fetch manifest ws@^8.18.0
+36 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/ws 153ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+39 silly fetch manifest bufferutil@^4.0.1
+40 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/bufferutil 98ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+43 silly fetch manifest utf-8-validate@>=5.0.2
+44 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 193ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+47 silly fetch manifest zod@^3.25 || ^4.0
+48 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/zod 313ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+51 silly placeDep ROOT langsmith@0.7.2 OK for: ai-code-reviewer-backend@1.0.0 want: *
+52 silly fetch manifest p-queue@6.6.2
+53 silly packumentCache full:https://registry.npmjs.org/p-queue cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/p-queue 138ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/p-queue set size:undefined disposed:false
+56 silly placeDep ROOT p-queue@6.6.2 OK for: langsmith@0.7.2 want: 6.6.2
+57 silly fetch manifest p-timeout@^3.2.0
+58 silly packumentCache full:https://registry.npmjs.org/p-timeout cache-miss
+59 silly fetch manifest eventemitter3@^4.0.4
+60 silly packumentCache full:https://registry.npmjs.org/eventemitter3 cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/p-timeout 141ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/p-timeout set size:undefined disposed:false
+63 http fetch GET 200 https://registry.npmjs.org/eventemitter3 386ms (cache miss)
+64 silly packumentCache full:https://registry.npmjs.org/eventemitter3 set size:undefined disposed:false
+65 silly placeDep ROOT eventemitter3@4.0.7 OK for: p-queue@6.6.2 want: ^4.0.4
+66 silly placeDep ROOT p-timeout@3.2.0 OK for: p-queue@6.6.2 want: ^3.2.0
+67 silly fetch manifest p-finally@^1.0.0
+68 silly packumentCache full:https://registry.npmjs.org/p-finally cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/p-finally 142ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/p-finally set size:undefined disposed:false
+71 silly placeDep ROOT p-finally@1.0.0 OK for: p-timeout@3.2.0 want: ^1.0.0
+72 silly reify moves {}
+73 silly audit bulk request {
+73 silly audit   '@google/generative-ai': [ '0.2.1' ],
+73 silly audit   '@mongodb-js/saslprep': [ '1.4.11' ],
+73 silly audit   '@types/node': [ '25.9.1' ],
+73 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+73 silly audit   '@types/whatwg-url': [ '8.2.2' ],
+73 silly audit   accepts: [ '1.3.8' ],
+73 silly audit   'agent-base': [ '6.0.2' ],
+73 silly audit   debug: [ '4.4.3', '2.6.9' ],
+73 silly audit   ms: [ '2.1.3', '2.0.0' ],
+73 silly audit   anymatch: [ '3.1.3' ],
+73 silly audit   'append-field': [ '1.0.0' ],
+73 silly audit   'array-flatten': [ '1.1.1' ],
+73 silly audit   asynckit: [ '0.4.0' ],
+73 silly audit   axios: [ '1.16.1' ],
+73 silly audit   'balanced-match': [ '4.0.4' ],
+73 silly audit   'binary-extensions': [ '2.3.0' ],
+73 silly audit   'body-parser': [ '1.20.5' ],
+73 silly audit   'brace-expansion': [ '5.0.6' ],
+73 silly audit   braces: [ '3.0.3' ],
+73 silly audit   bson: [ '5.5.1' ],
+73 silly audit   'buffer-from': [ '1.1.2' ],
+73 silly audit   busboy: [ '1.6.0' ],
+73 silly audit   bytes: [ '3.1.2' ],
+73 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+73 silly audit   'call-bound': [ '1.0.4' ],
+73 silly audit   chokidar: [ '3.6.0' ],
+73 silly audit   'combined-stream': [ '1.0.8' ],
+73 silly audit   compressible: [ '2.0.18' ],
+73 silly audit   compression: [ '1.8.1' ],
+73 silly audit   negotiator: [ '0.6.4', '0.6.3' ],
+73 silly audit   'concat-stream': [ '1.6.2' ],
+73 silly audit   'content-disposition': [ '0.5.4' ],
+73 silly audit   'content-type': [ '1.0.5' ],
+73 silly audit   cookie: [ '0.7.2' ],
+73 silly audit   'cookie-signature': [ '1.0.7' ],
+73 silly audit   'core-util-is': [ '1.0.3' ],
+73 silly audit   cors: [ '2.8.6' ],
+73 silly audit   'delayed-stream': [ '1.0.0' ],
+73 silly audit   depd: [ '2.0.0' ],
+73 silly audit   destroy: [ '1.2.0' ],
+73 silly audit   dotenv: [ '16.6.1' ],
+73 silly audit   'dunder-proto': [ '1.0.1' ],
+73 silly audit   'ee-first': [ '1.1.1' ],
+73 silly audit   encodeurl: [ '2.0.0' ],
+73 silly audit   'es-define-property': [ '1.0.1' ],
+73 silly audit   'es-errors': [ '1.3.0' ],
+73 silly audit   'es-object-atoms': [ '1.1.1' ],
+73 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+73 silly audit   'escape-html': [ '1.0.3' ],
+73 silly audit   etag: [ '1.8.1' ],
+73 silly audit   express: [ '4.22.2' ],
+73 silly audit   'express-rate-limit': [ '7.5.1' ],
+73 silly audit   'fill-range': [ '7.1.1' ],
+73 silly audit   finalhandler: [ '1.3.2' ],
+73 silly audit   'follow-redirects': [ '1.16.0' ],
+73 silly audit   'form-data': [ '4.0.5' ],
+73 silly audit   forwarded: [ '0.2.0' ],
+73 silly audit   fresh: [ '0.5.2' ],
+73 silly audit   fsevents: [ '2.3.3' ],
+73 silly audit   'function-bind': [ '1.1.2' ],
+73 silly audit   'get-intrinsic': [ '1.3.0' ],
+73 silly audit   'get-proto': [ '1.0.1' ],
+73 silly audit   'glob-parent': [ '5.1.2' ],
+73 silly audit   gopd: [ '1.2.0' ],
+73 silly audit   'has-flag': [ '3.0.0' ],
+73 silly audit   'has-symbols': [ '1.1.0' ],
+73 silly audit   'has-tostringtag': [ '1.0.2' ],
+73 silly audit   hasown: [ '2.0.3' ],
+73 silly audit   helmet: [ '8.1.0' ],
+73 silly audit   'http-errors': [ '2.0.1' ],
+73 silly audit   'https-proxy-agent': [ '5.0.1' ],
+73 silly audit   'iconv-lite': [ '0.4.24' ],
+73 silly audit   'ignore-by-default': [ '1.0.1' ],
+73 silly audit   inherits: [ '2.0.4' ],
+73 silly audit   'ip-address': [ '10.2.0' ],
+73 silly audit   'ipaddr.js': [ '1.9.1' ],
+73 silly audit   'is-binary-path': [ '2.1.0' ],
+73 silly audit   'is-extglob': [ '2.1.1' ],
+73 silly audit   'is-glob': [ '4.0.3' ],
+73 silly audit   'is-number': [ '7.0.0' ],
+73 silly audit   isarray: [ '1.0.0' ],
+73 silly audit   kareem: [ '2.5.1' ],
+73 silly audit   'math-intrinsics': [ '1.1.0' ],
+73 silly audit   'media-typer': [ '0.3.0' ],
+73 silly audit   'memory-pager': [ '1.5.0' ],
+73 silly audit   'merge-descriptors': [ '1.0.3' ],
+73 silly audit   methods: [ '1.1.2' ],
+73 silly audit   mime: [ '1.6.0' ],
+73 silly audit   'mime-db': [ '1.52.0' ],
+73 silly audit   'mime-types': [ '2.1.35' ],
+73 silly audit   minimatch: [ '10.2.5' ],
+73 silly audit   minimist: [ '1.2.8' ],
+73 silly audit   mkdirp: [ '0.5.6' ],
+73 silly audit   mongodb: [ '5.9.2' ],
+73 silly audit   'mongodb-connection-string-url': [ '2.6.0' ],
+73 silly audit   mongoose: [ '7.8.9' ],
+73 silly audit   mpath: [ '0.9.0' ],
+73 silly audit   mquery: [ '5.0.0' ],
+73 silly audit   multer: [ '1.4.5-lts.2' ],
+73 silly audit   nodemon: [ '3.1.14' ],
+73 silly audit   'normalize-path': [ '3.0.0' ],
+73 silly audit   'object-assign': [ '4.1.1' ],
+73 silly audit   'object-inspect': [ '1.13.4' ],
+73 silly audit   'on-finished': [ '2.4.1' ],
+73 silly audit   'on-headers': [ '1.1.0' ],
+73 silly audit   parseurl: [ '1.3.3' ],
+73 silly audit   'path-to-regexp': [ '0.1.13' ],
+73 silly audit   picomatch: [ '2.3.2' ],
+73 silly audit   'process-nextick-args': [ '2.0.1' ],
+73 silly audit   'proxy-addr': [ '2.0.7' ],
+73 silly audit   'proxy-from-env': [ '2.1.0' ],
+73 silly audit   'pstree.remy': [ '1.1.8' ],
+73 silly audit   punycode: [ '2.3.1' ],
+73 silly audit   qs: [ '6.15.2' ],
+73 silly audit   'range-parser': [ '1.2.1' ],
+73 silly audit   'raw-body': [ '2.5.3' ],
+73 silly audit   'readable-stream': [ '2.3.8' ],
+73 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+73 silly audit   readdirp: [ '3.6.0' ],
+73 silly audit   'safer-buffer': [ '2.1.2' ],
+73 silly audit   semver: [ '7.8.0' ],
+73 silly audit   send: [ '0.19.2' ],
+73 silly audit   'serve-static': [ '1.16.3' ],
+73 silly audit   setprototypeof: [ '1.2.0' ],
+73 silly audit   'side-channel': [ '1.1.0' ],
+73 silly audit   'side-channel-list': [ '1.0.1' ],
+73 silly audit   'side-channel-map': [ '1.0.1' ],
+73 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+73 silly audit   sift: [ '16.0.1' ],
+73 silly audit   'simple-update-notifier': [ '2.0.0' ],
+73 silly audit   'smart-buffer': [ '4.2.0' ],
+73 silly audit   socks: [ '2.8.9' ],
+73 silly audit   'sparse-bitfield': [ '3.0.3' ],
+73 silly audit   statuses: [ '2.0.2' ],
+73 silly audit   streamsearch: [ '1.1.0' ],
+73 silly audit   string_decoder: [ '1.1.1' ],
+73 silly audit   'supports-color': [ '5.5.0' ],
+73 silly audit   'to-regex-range': [ '5.0.1' ],
+73 silly audit   toidentifier: [ '1.0.1' ],
+73 silly audit   touch: [ '3.1.1' ],
+73 silly audit   tr46: [ '3.0.0' ],
+73 silly audit   'type-is': [ '1.6.18' ],
+73 silly audit   typedarray: [ '0.0.6' ],
+73 silly audit   undefsafe: [ '2.0.5' ],
+73 silly audit   'undici-types': [ '7.24.6' ],
+73 silly audit   unpipe: [ '1.0.0' ],
+73 silly audit   'util-deprecate': [ '1.0.2' ],
+73 silly audit   'utils-merge': [ '1.0.1' ],
+73 silly audit   vary: [ '1.1.2' ],
+73 silly audit   'webidl-conversions': [ '7.0.0' ],
+73 silly audit   'whatwg-url': [ '11.0.0' ],
+73 silly audit   xtend: [ '4.0.2' ],
+73 silly audit   langsmith: [ '0.7.2' ],
+73 silly audit   'p-queue': [ '6.6.2' ],
+73 silly audit   eventemitter3: [ '4.0.7' ],
+73 silly audit   'p-timeout': [ '3.2.0' ],
+73 silly audit   'p-finally': [ '1.0.0' ]
+73 silly audit }
+74 http cache p-queue@https://registry.npmjs.org/p-queue/-/p-queue-6.6.2.tgz 0ms (cache hit)
+75 http cache eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz 0ms (cache hit)
+76 http cache p-timeout@https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz 0ms (cache hit)
+77 silly tarball no local data for p-queue@https://registry.npmjs.org/p-queue/-/p-queue-6.6.2.tgz. Extracting by manifest.
+78 http cache p-finally@https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz 0ms (cache hit)
+79 http cache langsmith@https://registry.npmjs.org/langsmith/-/langsmith-0.7.2.tgz 0ms (cache hit)
+80 silly tarball no local data for eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz. Extracting by manifest.
+81 silly tarball no local data for p-timeout@https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz. Extracting by manifest.
+82 silly tarball no local data for p-finally@https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz. Extracting by manifest.
+83 silly tarball no local data for langsmith@https://registry.npmjs.org/langsmith/-/langsmith-0.7.2.tgz. Extracting by manifest.
+84 http fetch GET 200 https://registry.npmjs.org/p-queue/-/p-queue-6.6.2.tgz 169ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz 233ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz 276ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz 282ms (cache miss)
+88 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 343ms
+89 silly audit report {}
+90 http fetch GET 200 https://registry.npmjs.org/langsmith/-/langsmith-0.7.2.tgz 1931ms (cache miss)
+91 silly ADD node_modules/p-finally
+92 silly ADD node_modules/p-timeout
+93 silly ADD node_modules/eventemitter3
+94 silly ADD node_modules/p-queue
+95 silly ADD node_modules/langsmith
+96 verbose cwd C:\projects\genai\Automated Code Reviewer\backend
+97 verbose os Windows_NT 10.0.26200
+98 verbose node v24.13.1
+99 verbose npm  v11.15.0
+100 verbose exit 0
+101 info ok

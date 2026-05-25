@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model default_assets {
+  id         String    @id
+  data       Json
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model generated_voiceovers {
+  id         String    @id
+  data       Json
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model jobs {
+  id         String    @id
+  data       Json
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model pipeline_runs {
+  id         String    @id
+  data       Json
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model projects {
+  id         String    @id
+  data       Json
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model scripts {
+  id         String    @id
+  data       Json
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model system {
+  id         String    @id
+  data       Json
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model Review {
+  id                String   @id @default(uuid())
+  code              String
+  language          String
+  reviewType        String
+  profileId         String?
+  qualityGateId     String?
+  qualityGateStatus String?
+  tags              Json?
+  result            Json?
+  createdAt         DateTime @default(now())
+
+  @@map("reviews")
+}
